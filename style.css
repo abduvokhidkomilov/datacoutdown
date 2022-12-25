@@ -93,6 +93,7 @@ ul {
 @media (max-width:450px){
     .container {
         height: 90vh;
+        justify-content: center;
     }
     ul{
         gap: 10px;
