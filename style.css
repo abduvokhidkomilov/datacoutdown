@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgba(246, 8, 8, 0.6),rgba(18, 23, 120, 0.594)),url(./images/nw.jpg);
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container {
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+li {
+    list-style: none;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: aqua;
+    background-image: linear-gradient(rgba(0, 72, 255, 0.5),rgb(255, 7, 7,0.8));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120px;
+    width: 150px;
+    border-radius: 10px;
+    
+}
+h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+    color: rgb(60, 137, 238);
+
+}
+h2 {
+    font-size: 50px;
+    height: 50px;
+}
+h3 {
+    font-size: 30px;
+}
+.bgYear{
+    font-size: 200px;
+    opacity: 0.2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -200px;
+}
+ul {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  justify-content: center;
+ 
+}
+.create {
+    color: rgb(237, 172, 8);
+    text-align: center;
+}
+
+@media (max-width:750px){
+    .year h1{
+        font-size: 60px;
+        text-align: center;
+    }
+    ul{
+        gap: 20px;
+    }
+    li{
+        width: 120px;
+        padding: 10px;
+    
+    }
+    li h3 {
+        font-size: 20px;
+    }
+    li h2{
+        font-size: 40px;
+    }
+}
+@media (max-width:550px){
+    ul{
+        gap: 10px;
+    }
+    li{
+        width: 90px;
+        height: 100px;
+    }
+}
+@media (max-width:450px){
+    ul{
+        gap: 10px;
+    }
+    li{
+        width: 70px;
+        height: 90px;
+    }
+    li h3 {
+        font-size: 15px;
+    }
+    li h2{
+        font-size: 30px;
+    }
+    .bgYear {
+        font-size: 150px;
+    }
+}
