@@ -91,6 +91,9 @@ ul {
     }
 }
 @media (max-width:450px){
+    .container {
+        height: auto;
+    }
     ul{
         gap: 10px;
     }
