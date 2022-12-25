@@ -92,7 +92,7 @@ ul {
 }
 @media (max-width:450px){
     .container {
-        height: auto;
+        height: 80vh;
     }
     ul{
         gap: 10px;
